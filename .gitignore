@@ -105,4 +105,9 @@ dist
 
 # Etc.
 .DS_Store
-style.css.map
+
+# Sass SCSS
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
