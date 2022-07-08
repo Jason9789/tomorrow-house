@@ -1,0 +1,31 @@
+%tag-base {
+  // Placeholder
+  // mixin이랑 비슷하지만 다르다. 확장성이 떨어지고 인자를 받을 수 없다.
+  // 공통통 스타일 선언후 상속 받는 형식으로 사용함.
+
+  @include inline-flexbox;
+  @include text-style(12);
+  height: 20px;
+  padding: 0 6px;
+  font-weight: 700;
+
+  border-radius: 4px;
+}
+
+.tag-red {
+  @extend %tag-base;
+  color: $white;
+  background-color: $red;
+}
+
+.tag-green {
+  @extend %tag-base;
+  color: $white;
+  background-color: $green;
+}
+
+.tag-gray {
+  @extend %tag-base;
+  color: $secondary;
+  background-color: $border;
+}
