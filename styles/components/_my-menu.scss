@@ -12,6 +12,11 @@
     border-radius: 50%;
     transition: border-color 200ms ease-in-out;
 
+    background-image: url('../../asssets/images/img-user-default.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
     img {
       display: block;
       width: 100%;
